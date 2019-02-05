@@ -1,0 +1,110 @@
+.header1{
+ max-width: 900px;
+ margin: auto;
+}
+.row1{
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+}
+.column11{
+ flex-basis: 100%;
+}
+@media screen and (max-width: 600px){
+    .row1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%; 
+    }
+    .column11{
+        flex-basis: 80%;
+    }
+    .image2{
+        width: 80%;
+    }
+    .image3{
+        width: 80%;
+    }
+    .image{
+        width: 25%;
+        height: 35%;
+        float: left;
+    }
+    .image4{
+        width: 45%;
+        height: 50%;
+        float: left;
+     } 
+}  
+@media screen and (min-width: 601px)  and (max-width: 900px){
+    .row1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%; 
+    }
+    .column11{
+        flex-basis: 90%;
+    }
+    .image2{
+        width: 90%;
+    }
+    .image3{
+        width: 80%;
+    }
+    .image{
+        width: 25%;
+        height: 35%;
+        float: left;
+    }
+    .image4{
+        width: 45%;
+        height: 50%;
+        float: left;
+    } 
+}  
+@media screen and (min-width:800px){
+  .column11{ 
+      flex: 1;
+    }
+}
+.textdesign{
+    text-align: right;
+    float: right;
+}
+.style{
+ font: normal 400 35px 'segoe UI', Arial, sans-serif;
+}
+.style1{
+    font: normal 400 20px 'segoe UI', Arial, sans-serif;  
+}
+.textdecor{
+ font: 39px 'segoe UI', Arial, sans-serif;
+ color: #5d6266;
+ text-decoration: underline;
+}
+.textdecor2{
+ font: normal 20px 'segoe UI', Arial, sans-serif;  
+ text-decoration: underline;
+ color: #565858;
+}
+.image2{
+    max-width: 100%;
+    display: block;
+}
+.image3{
+    max-width: 100%;
+    display: block;
+}
+.image4{
+    display: block;
+    max-width: 100%; 
+}
+h6{ 
+    font-size: 15px;
+    color: black;
+}
+figcaption{
+    text-align: center;
+    color:#717477;
+    font-size: 20px;
+}
